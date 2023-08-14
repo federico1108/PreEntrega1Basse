@@ -3,9 +3,11 @@
 let repetir = true
 
 while (repetir){
+    alert("Bienvenido al calculador de condicion de la materia, recuerda que para promocionar tu promedio debe ser de 7 para arriba.")
 
     
     function promediar(){
+
         let parcialUno , parcialDos , final , tpUno , tpDos
 
         parcialUno = Number(prompt("Ingrese la nota del primer parcial: "))
